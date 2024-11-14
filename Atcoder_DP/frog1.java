@@ -5,7 +5,8 @@ class frog1 {
     static int[] dp = new int[100001]; 
 
     static int solve(int i, int[] arr) {
-        if (i >= arr.length - 1) return 0;
+        if (i >= arr.length - 1) return 0; 
+        // hghg;
 
         if (dp[i] != -1) return dp[i]; 
 
