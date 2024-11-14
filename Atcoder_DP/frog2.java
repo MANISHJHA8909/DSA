@@ -47,6 +47,7 @@ public class frog2 {
         for (int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();
         }
+        // second change
         Arrays.fill(dp, -1);
         int ans = solve(arr, k, 0);
         System.out.println(ans);
